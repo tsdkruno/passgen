@@ -12,6 +12,7 @@
 
         <form action="passgen.php" method="post">
             <input type="text" name="broj_znakova"> broj znakova<br>
+            <input type="checkbox" name="mala_slova"> mala slova<br>
             <input type="checkbox" name="brojevi"> brojevi<br>
             <input type="checkbox" name="posebni"> posebni znakovi<br>
             <input type="submit" value="Generiraj!">
